@@ -1,0 +1,339 @@
+{
+   "testtestMessage": {
+    "label": "Send test broadcaster message",
+    "group": "Test messages",
+    "type": "button"
+  },
+    "testMessageLong": {
+    "label": "Send long message (as follower)",
+    "group": "Test messages",
+    "type": "button"
+  },
+     "testMessageVip": {
+    "label": "Send test VIP message",
+    "group": "Test messages",
+    "type": "button"
+  },
+    "testMessageMod": {
+    "label": "Send test Mod message",
+    "group": "Test messages",
+    "type": "button"
+  },
+  "alignMessages": {
+    "label": "Align Messages",
+    "type": "dropdown",
+    "value": "bottom",
+    "options": {
+      "bottom": "Bottom",
+      "top": "Top"
+    },
+    "group": "Messages settings"
+  },
+     "centeralign": {
+    "label": "Message align",
+    "type": "dropdown",
+    "value": "left",
+    "options": {
+      "left": "Left",
+      "center": "Center"
+    },
+    "group": "Messages settings"
+  },
+    "msganim": {
+    "label": "Message animation (scale)",
+    "type": "dropdown",
+    "value": "on",
+    "options": {
+      "on": "On",
+      "off": "Off"
+    },
+    "group": "Messages settings"
+  },
+   "msgHideOpt": {
+        "label": "Hide message after some time",
+        "type": "checkbox",
+        "group": "Messages settings",
+        "value": false
+    },
+  "msgHide": {
+        "type": "number",
+        "label": "Messages hide time in seconds",
+        "value": 7,
+        "step": 1,
+        "group": "Messages settings"
+    },
+  "msgFade": {
+    "label": "Old messages fading",
+    "group": "Messages settings",
+    "type": "checkbox"
+  }, 
+  "msgLimit": {
+    "label": "Messages limit",
+    "group": "Messages settings",
+    "type": "checkbox"
+  }, 
+   "msgLimitAmount": {
+        "type": "number",
+        "label": "Messages limit amount",
+        "value": 7,
+        "step": 1,
+        "group": "Messages settings"
+    },
+   "largeEmotes": {
+    "label": "Large emotes on",
+    "type": "dropdown",
+    "value": "on",
+    "options": {
+      "on": "On",
+      "off": "Off"
+    },
+    "group": "Messages settings"
+  },
+      "badgesDisplay": {
+        "label": "Show badges",
+        "type": "checkbox",
+        "value": true,
+        "group": "Messages settings"
+    },
+    "badgesCustom": {
+        "label": "Custom badges",
+        "type": "checkbox",
+        "value": true,
+        "group": "Messages settings"
+    },
+      "badgescolor": {
+        "label": "Badges color",
+        "type": "colorpicker",
+        "value": "#573e96",
+        "group": "Messages settings"
+    },
+    "pronounsOn": {
+        "label": "Pronouns on",
+        "type": "checkbox",
+        "value": true,
+        "group": "Messages settings"
+    },
+   "bordercolor": {
+        "label": "Border color",
+        "type": "colorpicker",
+        "value": "#af95ef"
+    },
+     "decoration": {
+        "label": "Decoration color",
+        "type": "colorpicker",
+        "value": "#af95ef"
+    },
+  "namescolor": {
+        "label": "Names color",
+        "type": "colorpicker",
+        "value": "#af95ef"
+    },
+        "butterflyon": {
+        "label": "Butterfly on",
+        "type": "checkbox",
+        "value": true
+    },
+   "text44": {
+        "label": "Use slider to change butterfly color",
+        "type": "hidden"
+    }, 
+    "brdr": {
+        "type": "slider",
+        "label": "Butterfly color",
+        "value": 0,
+        "min": 0,
+        "max": 36
+    },
+    "bglow": {
+        "label": "Butterfly glow color (write in - for no glow)",
+        "type": "colorpicker",
+        "value": "#af95ef"
+    },
+      "msgbackl": {
+        "label": "Background color",
+        "type": "colorpicker",
+        "value": "#ffdbf3"
+    },
+    "textback": {
+        "label": "Name box background color",
+        "type": "colorpicker",
+        "value": "#ddd2ff"
+    },
+     "textback2": {
+        "label": "Name box background color 2",
+        "type": "colorpicker",
+        "value": "#ddd2ff"
+    },
+    "nickColor": {
+    "type": "dropdown",
+    "label": "Nickname color:",
+    "value": "custom",
+    "options": {
+      "user": "Same as twitch",
+      "custom": "Custom names color (choose below)",
+      "pastelTwitch": "Twitch color but pastel (light)"
+    }
+  },
+    "msgcolor": {
+        "label": "Text color",
+        "type": "colorpicker",
+        "value": "#fee8d5"
+    },
+    "msgFont": {
+        "label": "Message font",
+        "type": "googleFont",
+        "value": "Poppins"
+    },
+    "namesFont": {
+        "label": "Names font",
+        "type": "googleFont",
+        "value": "Poppins"
+    },
+    "namesBold": {
+        "label": "Names font weight",
+        "type": "dropdown",
+        "options": {
+            "100": "Thin",
+            "200": "Extralight",
+            "300": "Light",
+            "400": "Regular",
+            "500": "Medium",
+            "600": "Semibold",
+            "700": "Bold"
+        },
+        "value": "400"
+    },
+    "msgBold": {
+        "label": "Message font weight",
+        "type": "dropdown",
+        "options": {
+            "100": "Thin",
+            "200": "Extralight",
+            "300": "Light",
+            "400": "Regular",
+            "500": "Medium",
+            "600": "Semibold",
+            "700": "Bold"
+        },
+        "value": "400"
+    },
+    "msgSize": {
+        "type": "number",
+        "label": "Messages font size",
+        "value": 18,
+        "steps": 1
+    },
+    "namesSize": {
+        "type": "number",
+        "label": "Names font size",
+        "value": 18,
+        "step": 1
+    },
+   "alertson": {
+    "type": "checkbox",
+    "label": "Enable alerts",
+    "value": false,
+    "group": "Alerts"
+  },
+     "text5": {
+    "label": "-- If alerts on --",
+    "group": "Alerts",
+    "type": "hidden"
+  },
+  "text51": {
+    "label": " ",
+    "group": "Alerts",
+    "type": "hidden"
+  },
+  "alertsfollower": {
+    "type": "checkbox",
+    "label": "Enable alerts for followers",
+    "value": false,
+    "group": "Alerts"
+  },
+    "alertssub": {
+    "type": "checkbox",
+    "label": "Enable alerts for subscribers",
+    "value": false,
+    "group": "Alerts"
+  },
+    "alertsdonation": {
+    "type": "checkbox",
+    "label": "Enable alerts for donations",
+    "value": false,
+    "group": "Alerts"
+  },
+    "alertsbits": {
+    "type": "checkbox",
+    "label": "Enable alerts for cheers",
+    "value": false,
+    "group": "Alerts"
+  },
+    "text52": {
+    "label": "-- Test alerts with EMULATE --",
+    "group": "Alerts",
+    "type": "hidden"
+  },
+     "text54": {
+    "label": " ",
+    "group": "Alerts",
+    "type": "hidden"
+  },
+  "text55": {
+    "label": "-- Choose 2 colors for gradient",
+    "group": "Alerts",
+    "type": "hidden"
+  },
+   "text56": {
+    "label": "or same color in both for solid --",
+    "group": "Alerts",
+    "type": "hidden"
+  },
+  "text57": {
+    "label": " ",
+    "group": "Alerts",
+    "type": "hidden"
+  },
+   "alertsboxcolor1": {
+        "label": "Alerts box color #1",
+        "type": "colorpicker",
+        "value": "#573e96",
+      "group": "Alerts"
+    },
+     "alertsboxcolor2": {
+        "label": "Alerts box color #2",
+        "type": "colorpicker",
+        "value": "#573e96",
+      "group": "Alerts"
+    },
+   "alerttext": {
+        "label": "Alerts text color",
+        "type": "colorpicker",
+        "value": "#573e96",
+      "group": "Alerts"
+    },
+  "hideCommands": {
+    "label": "Hide messages with ! (commands)",
+    "type": "dropdown",
+    "value": "yes",
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "group": "Settings"
+  },  
+  "ignoredUsers": {
+    "label": "Ignored users (comma separated)",
+    "type": "text",
+    "value": "StreamElements,OtherBot",
+    "group": "Settings"
+  }, 
+    "widgetName": {
+     "type": "hidden",
+      "value": "Butterfly chat"
+  }, 
+      "widgetAuthor": {
+     "value": "@milaeshop",
+     "type": "hidden"
+  }
+}
